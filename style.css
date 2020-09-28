@@ -6,7 +6,7 @@
     height: 100px;
 }
 .header-bg{
-    background-image: url(assets/images/a.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)) , url(assets/images/a.jpg);
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -19,7 +19,7 @@
     font-size: 15px;
     font-weight: 600;
 }
-.navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link:active {  color: #ffffff;
+.navbar .navbar-nav .nav-item .nav-link:hover, .navbar .navbar-nav .nav-item .nav-link:active {
     color: #ffffff;
     margin-right: 30px;
     font-size: 17px;
